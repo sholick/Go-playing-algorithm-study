@@ -11,10 +11,13 @@ The agent attempts to expand from the current state by playing into different po
 This is in essence the minimax method, minimizing your opponent's gain and maximizing yours.
 A discount rate is applied for every step into the future.<br/>
 <img src="https://github.com/sholick/Go-playing-algorithm-study/blob/main/minimax-tree.PNG" width="400" >
+(image from my ipython notebook)
 
 ## Monte Carlo Simulation
 From the current state, an agent plays many random games, every step at random, and record the wins/losses of playing that move.
 The average rate is caluclated in a few batches, and the final rate is adjusted according to the variation of these numbers.
-A final "goodness" value of that move is calculated.
+A final "goodness" value of that move is calculated.<br/>
+<img src="https://github.com/sholick/Go-playing-algorithm-study/blob/main/mcts.png" width="600" > 
+(image obtained from David Silver et al. "Mastering the game of Go with deep neural networks and tree search", Nature, 2016)
 
 In theory, the more imaginary games simulated, the more accurate the value becomes.
