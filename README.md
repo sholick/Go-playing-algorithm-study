@@ -17,7 +17,7 @@ A discount rate is applied for every step into the future.<br/><br/>
 From the current state, an agent plays many random games, every step at random, and record the wins/losses of playing that move.
 The average rate is caluclated in a few batches, and the final rate is adjusted according to the variation of these numbers.
 A final "goodness" value of that move is calculated.<br/><br/>
-The 4 steps of a standard MCTS:
+The 4 steps of a standard MCTS:<br/>
 <img src="https://github.com/sholick/Go-playing-algorithm-study/blob/main/mcts.png" width="600" >
 <br/>(image obtained from David Silver et al. "Mastering the game of Go with deep neural networks and tree search", Nature, 2016)
 
