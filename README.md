@@ -9,7 +9,7 @@ In the experiment part, a simplified game of Go was programmed, and agents using
 A demo of expanding the game tree and then displaying the estimated value of playing in each position.
 The agent attempts to expand from the current state by playing into different positions on the board, assuming the opponent plays optimally.
 This is in essence the minimax method, minimizing your opponent's gain and maximizing yours.
-A discount rate is applied for every step into the future.
+A discount rate is applied for every step into the future.<br/>
 <img src="https://github.com/sholick/Go-playing-algorithm-study/blob/main/minimax-tree.PNG" width="400" >
 
 ## Monte Carlo Simulation
